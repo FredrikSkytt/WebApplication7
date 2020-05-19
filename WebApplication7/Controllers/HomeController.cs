@@ -10,7 +10,8 @@ namespace WebApplication7.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            int i = 0;
+            return View(i);
         }
 
         public ActionResult About()
